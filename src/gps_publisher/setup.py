@@ -21,10 +21,11 @@ setup(
     entry_points={
         'console_scripts': [
             'broker_node = gps_publisher.broker_node:main',
-            'gps_node = gps_publisher.gps_node:main',
-            'yaw_node = gps_publisher.yaw_node:main',
-            'test_sock_node = gps_publisher.test_ros_sock:main',
+            #'gps_node = gps_publisher.gps_node:main',
+            #'yaw_node = gps_publisher.yaw_node:main',
+            #'test_sock_node = gps_publisher.test_ros_sock:main',
             'gps_to_utm = gps_publisher.gps_to_utm:main',
+            'kalman_filter_node = gps_publisher.kalman_filter_node:main'
         ],
     },
 )
